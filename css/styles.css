@@ -1,0 +1,126 @@
+@import url(general.css);
+
+/* ************************************************************ */
+/* *************NAVIGATION BAR*********************************** */
+
+header{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    /* justify-content: space-between; */
+    background-color: #E0DFDB;
+
+    
+}
+
+.nav-brand{
+        font-size: 2rem;
+        font-weight: 700;
+        
+}
+
+/* .main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.main-nav-links{
+    display: flex;
+    list-style: none;
+    /* text-align: center;*/
+    /* justify-content: space-between; */
+    gap: 5rem;
+
+}
+
+.main-link{
+    font-size: 1.4rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.main-nav-btns{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 1rem;
+    list-style: none;
+    margin-left: auto;
+}
+
+.main-btn,.register-btn{
+    font-size: 1.4rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.register-btn{
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+/* ************************************************************ */
+/* *************Cover Image Section*********************************** */
+
+.section-cover-img{
+    height: 60vh;
+    background-image: url("../img/cover-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ************************************************************ */
+
+/* ************************************************************ */
+/* *************Hero Section*********************************** */
+.section-hero{
+    background-color: #E0DFDB;
+    overflow: hidden;
+}
+
+.brand{
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.brand-name{
+    text-align: center;
+    font-size: 30rem;
+    transform: scaleX(1.2);
+}
+.brand span{
+    margin: 0 10rem;
+}
+
+.hero-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    ;
+}
+
+.hero-grid img{
+    width: 100%;
+    
+}
+
+
+
+
+/* ************************************************************ */
+
+/* FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+    
+    line height(in px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+    
+    */
