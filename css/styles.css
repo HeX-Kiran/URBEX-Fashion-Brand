@@ -70,8 +70,8 @@ header{
 
 .section-cover-img{
     height: 60vh;
-    background-image: url("../img/cover-image.jpg");
-    background-position: center;
+    background-image: url("../img/cover-image.webp");
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -82,17 +82,19 @@ header{
 /* ************************************************************ */
 /* *************Hero Section*********************************** */
 .section-hero{
+    padding: 2rem 2rem 10rem 2rem;
     background-color: #E0DFDB;
     overflow: hidden;
 }
 
 .brand{
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
     width: 100%;
 }
 
 .brand-name{
+    line-height: 1;
     text-align: center;
     font-size: 30rem;
     transform: scaleX(1.2);
@@ -104,7 +106,8 @@ header{
 .hero-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    ;
+    column-gap: 3rem;
+    row-gap: 5rem;
 }
 
 .hero-grid img{
@@ -112,10 +115,83 @@ header{
     
 }
 
+.item-details{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
 
 
 
 /* ************************************************************ */
+
+
+/* ************************************************************ */
+/* *************Insider Section*********************************** */
+
+.section-insider{
+    background-color: black;
+    border-bottom: 2px solid rgba(224, 223, 219, 0.255);
+   
+}
+
+.section-insider>p{
+    padding: 10rem 2rem 5rem 2rem;
+    border-bottom: 2px solid rgba(224, 223, 219, 0.255);
+}
+
+.insider-content{
+    font-size: 2.4rem;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+
+}
+
+.insider-content img{
+    width: 100%;
+}
+
+.insider-content-main-img{
+    grid-row: span 2;
+}
+
+.insider-description{
+    width: 60%;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.insider-content-side-img{
+    align-self: flex-end;
+}
+
+
+
+/* ************************************************************ */
+
+/* ************************************************************ */
+/* *************Collection Section*********************************** */
+.section-collection{
+    background-color: black;
+    border-bottom: 2px solid rgba(224, 223, 219, 0.255);
+   
+}
+.section-collection>p{
+    padding: 5rem 2rem 5rem 2rem;
+    border-bottom: 2px solid rgba(224, 223, 219, 0.255);
+}
+
+
+/* ************************************************************ */
+
 
 /* FONT SIZE SYSTEM (px)
     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
