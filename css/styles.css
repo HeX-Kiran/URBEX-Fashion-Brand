@@ -104,8 +104,8 @@ header{
 }
 
 .hero-grid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
     column-gap: 3rem;
     row-gap: 5rem;
 }
@@ -115,12 +115,7 @@ header{
     
 }
 
-.item-details{
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 
 
@@ -186,8 +181,112 @@ header{
 }
 .section-collection>p{
     padding: 5rem 2rem 5rem 2rem;
+    /* border-bottom: 2px solid rgba(224, 223, 219, 0.255); */
+}
+
+.grid-collections{
+    padding-top: 0;
+}
+
+.grid-collections img{
+    width: 100%;
+    
+}
+
+.grid-collections span{
+    color: #E0DFDB;
+}
+
+
+/* ************************************************************ */
+
+/* ************************************************************ */
+/* *************Outfit Collection 1 Section*********************************** */
+
+.section-outfit-1{
+    background-color: #E0DFDB; 
+    padding: 5rem 2rem 5rem 2rem;
     border-bottom: 2px solid rgba(224, 223, 219, 0.255);
 }
+
+.grid-outfit-collection{
+    padding-bottom: 4rem;
+    border-bottom: 2px solid rgba(5, 4, 0, 0.255);
+}
+
+.grid-outfit-collection img{
+    width: 100%;
+    
+}
+
+.grid-container.main-1{
+    grid-column: span 2;
+    background-image: url("../img/Outfit-collection-1/model13.webp");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.item-details{
+    margin-top: 0rem;
+    
+}
+
+.main-1.item-details{
+    padding: 3rem 2rem;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.main-1  .primary-heading{
+    width: 50%;
+    
+}
+
+.main-1.item-details ion-icon{
+    font-size: 3.2rem;
+    background-color: #E0DFDB;
+    text-decoration: none;
+    padding: 2.4rem 2.4rem;
+    color: #000;
+    border-radius: 50%;
+}
+    /* Collection 2 */
+
+.grid-outfit-collection2{
+    padding-top:4rem ;
+}
+
+.grid-outfit-collection2 img {
+    width: 100%;
+}
+
+.grid-container.main-2{
+    grid-column: span 2;
+    background-image: url("../img/outfit-2/model5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-2.item-details {
+    padding: 3rem 2rem;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.main-2  .primary-heading{
+    width: 50%;
+    
+}
+
+.main-2.item-details ion-icon{
+    font-size: 3.2rem;
+    background-color: #E0DFDB;
+    text-decoration: none;
+    padding: 2.4rem 2.4rem;
+    color: #000;
+    border-radius: 50%;
+}
+
 
 
 /* ************************************************************ */

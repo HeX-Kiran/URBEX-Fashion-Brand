@@ -45,6 +45,26 @@ body{
     font-weight: 400;
 }
 
+.grid{
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 5rem;
+}
+
+.grid--col4{
+    grid-template-columns: repeat(4,1fr);
+}
+
+.item-details{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
 
 /* FONT SIZE SYSTEM (px)
     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
