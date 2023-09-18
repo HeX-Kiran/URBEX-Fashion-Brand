@@ -8,9 +8,9 @@ header{
     display: flex;
     align-items: center;
     gap: 10rem;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     background-color: #E0DFDB;
-
+    
     
 }
 
@@ -42,25 +42,40 @@ header{
     text-decoration: none;
 }
 
-.main-nav-btns{
-    display: flex;
-    /* align-items: center;
-    justify-content: center; */
-    gap: 1rem;
-    list-style: none;
-    margin-left: auto;
-}
 
-.main-btn,.register-btn{
+.register-btn{
+    margin-left: auto;
     font-size: 1.4rem;
     color: #000;
     text-decoration: none;
 }
 
-.register-btn{
+.register-btn:link,
+.register-btn:visited{
     padding: 1rem 2rem;
     background-color: #000;
     color: #fff;
+}
+
+.register-btn:hover,
+.register-btn:active{
+    padding: 1rem 2rem;
+    background-color: #222;
+    color: #fff;
+}
+
+.btn-menu{
+    padding: 1.2rem 2.4rem;
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-menu ion-icon{
+    font-size: 3.2rem;
+    color: #000;
+    display: none;
 }
 
 
@@ -94,7 +109,7 @@ header{
 }
 
 .brand-name{
-    line-height: 1;
+    line-height: 0.9;
     text-align: center;
     font-size: 30rem;
     transform: scaleX(1.2);
@@ -262,7 +277,7 @@ header{
 
 .grid-container.main-2{
     grid-column: span 2;
-    background-image: url("../img/outfit-2/model5.jpg");
+    background-image: url("../img/outfit-2/model5.webp");
     background-position: center;
     background-size: cover;
 }
@@ -289,6 +304,63 @@ header{
 
 
 
+/* ************************************************************ */
+
+
+.section-cover-img-footer{
+    height: 60vh;
+    background-image: url("../img/footer-cover.webp");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ************************************************************ */
+/* *************Outfit Collection 1 Section*********************************** */
+.section-footer{
+    background-color: #E0DFDB;
+}
+
+.footer-nav{
+    padding: 2rem;
+    border-bottom: 2px solid rgba(17, 17, 17, 0.426);
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav-links{
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.footer-links{
+    font-size: 1.4rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.section-footer .brand{
+    border-bottom: 2px solid rgba(17, 17, 17, 0.426);
+    margin-bottom: 0;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+
+.about .teritory-heading{
+    color: #777;
+    font-size: 1.4rem;
+}
 /* ************************************************************ */
 
 

@@ -5,25 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URBEX- Fashion Brand</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/media.css">
+    <script defer src="javascript/script.js"></script>
+
 </head>
 <body>
     <!-- Nav Bar -->
-    <header>
+    <header class="">
         <span class="nav-brand">URBEX</span>
-        
-            <ul class="main-nav-links">
-                <li class="main-nav-link"><a href="#" class="main-link">SHOP</a></li>
-                <li class="main-nav-link"><a href="#" class="main-link">DISCOVER</a></li>
-                <li class="main-nav-link"><a href="#" class="main-link">JOURNAL</a></li>
-                <li class="main-nav-link"><a href="#" class="main-link">ABOUT</a></li>
-            </ul>
-            <ul class="main-nav-btns">
-                <li class="main-nav-btn"><button class="main-btn">icon</button></li>
-                <li class="main-nav-btn"><button class="main-btn">icon</button></li>
-                <li class="main-nav-btn"><a href="" class="register-btn">REGISTER</a></li>
-                
-            </ul>
-        
+            <div class="navigation">
+                <ul class="main-nav-links">
+                    <li class="main-nav-link"><a href="#" class="main-link">SHOP</a></li>
+                    <li class="main-nav-link"><a href="#" class="main-link">DISCOVER</a></li>
+                    <li class="main-nav-link"><a href="#" class="main-link">JOURNAL</a></li>
+                    <li class="main-nav-link"><a href="#" class="main-link">ABOUT</a></li>
+                    <li class="main-nav-btn"><a href="" class="register-btn">REGISTER</a></li>
+                </ul>
+            
+        </div>
+        <button class="btn-menu">
+            <ion-icon name="menu-outline"></ion-icon>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
     </header>
     <!-- Section Cover Image -->
     <section class="section-cover-img" role="image" aria-label="A cover image containing 4 people sitting and standing on a bench">
@@ -40,7 +47,7 @@
         <div class="hero-grid grid grid--col4">
             <!-- item-1 -->
             <div class="grid-container">
-                <img src="img/Landing-Page/grid-1.jpg" alt="images of models">
+                <img src="img/Landing-Page/grid-1.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Sleeky elegent dress</span>
                     <span class="teritory-heading">$149.99</span>
@@ -48,7 +55,7 @@
             </div>
             <!-- item-2 -->
             <div class="grid-container">
-                <img src="img/Landing-Page/grid-2.jpg" alt="images of models">
+                <img src="img/Landing-Page/grid-2.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Sleeky sernity dress</span>
                     <span class="teritory-heading">$169.99</span>
@@ -56,7 +63,7 @@
             </div>
             <!-- item-3 -->
             <div class="grid-container">
-                <img src="img/Landing-Page/grid-3.jpg" alt="images of models">
+                <img src="img/Landing-Page/grid-3.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Luxuary cashimere</span>
                     <span class="teritory-heading">$449.99</span>
@@ -64,7 +71,7 @@
             </div>
             <!-- item-4 -->
             <div class="grid-container">
-                <img src="img/Landing-Page/grid-4.jpg" alt="images of models">
+                <img src="img/Landing-Page/grid-4.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Carbon Printed dress</span>
                     <span class="teritory-heading">$399.99</span>
@@ -72,7 +79,7 @@
             </div>
             <!-- item-5 -->
             <div class="grid-container">
-                <img src="img/Landing-Page/grid-4.jpg" alt="images of models">
+                <img src="img/Landing-Page/grid-4.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Micro Check dress</span>
                     <span class="teritory-heading">$249.99</span>
@@ -80,7 +87,7 @@
             </div>
             <!-- item-6 -->
             <div class="grid-container">
-                <img src="img/Landing-Page/grid-3.jpg" alt="images of models">
+                <img src="img/Landing-Page/grid-3.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Sloopy slim fit</span>
                     <span class="teritory-heading">$549.99</span>
@@ -88,7 +95,7 @@
             </div>
             <!-- item-7 -->
             <div class="grid-container">
-                <img src="img/Landing-Page/grid-2.jpg" alt="images of models">
+                <img src="img/Landing-Page/grid-2.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Tank Top</span>
                     <span class="teritory-heading">$49.99</span>
@@ -96,7 +103,7 @@
             </div>
             <!-- item-8 -->
             <div class="grid-container">
-                <img src="img/Landing-Page/grid-1.jpg" alt="images of models">
+                <img src="img/Landing-Page/grid-1.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Silky Spectrum</span>
                     <span class="teritory-heading">$649.99</span>
@@ -109,13 +116,13 @@
     <section class="section-insider">
         <p class="primary-heading">URBEX IS MORE THAN FASHION,IT'S A LIFESTYLE EMBODYING URBAN ENERGY AND SELF-EXPRESSION.WITH INNOVATIVE DESIGN INSPIRED BY CITY LIFE.</p>
         <main class="insider-content wrapper">
-            <img src="img/Insider-Images/thread store.webp" alt="cloth factory" class="insider-content-main-img">
+            <img src="img/Insider-Images/thread store.webp" alt="cloth factory" class="insider-content-main-img" loading="lazy">
             <div class="insider-description">
                 <p class="secondary-heading">We create quality,sustainable pieces that empower diverse bodies and foster a community of urban enthuisiasts.Join urbex to redefine urban fashion and embrace your authentic self in the bustling cityscape</p>
                 <p class="secondary-heading">urbex garments are meticulously crafted to only elevate your loot but also empower your movements,whether you're navigating the city streets or embracing the rhythm of urban nightlife.</p>
             </div>
-            <img src="img/Insider-Images/cloth factory.webp" alt="Women stiching using a machine" class="insider-content-side-img">
-            <img src="img/Insider-Images/jeans.webp" alt="Women stiching using a machine" class="insider-content-side-img">
+            <img src="img/Insider-Images/cloth factory.webp" alt="Women stiching using a machine" class="insider-content-side-img" loading="lazy">
+            <img src="img/Insider-Images/jeans.webp" alt="Women stiching using a machine" class="insider-content-side-img" loading="lazy">
         </main>
     </section>
 
@@ -238,7 +245,7 @@
 
             <!-- Outfit -1 -->
             <div class="grid-container">
-                <img src="img/outfit-2/model1.jpg" alt="images of models">
+                <img src="img/outfit-2/model1.webp" alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Denim Jacket</span>
                     <span class="teritory-heading">$749.99</span>
@@ -247,7 +254,7 @@
 
             <!-- Outfit -2 -->
             <div class="grid-container">
-                <img src="img/outfit-2/model2.jpg"  alt="images of models">
+                <img src="img/outfit-2/model2.webp"  alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Full SleevE Red T-SHIRT</span>
                     <span class="teritory-heading">$128.99</span>
@@ -258,13 +265,13 @@
              <div class="grid-container main-2 item-details" role="img" aria-label="An Image and Text Saying Minimalist Elegance with an open button">
                 <!-- <img src="img/Summer-Collection/girl8.webp" alt="images of models"> -->
                 
-                    <span class="primary-heading">URABN CITY WEAR</span>
+                    <span class="primary-heading">URBAN CITY WEAR</span>
                     <a href="#"><ion-icon name="open-outline"></ion-icon></a>
             </div>
 
             <!-- Outfit -4 -->
             <div class="grid-container">
-                <img src="img/outfit-2/model12.jpg"  alt="images of models">
+                <img src="img/outfit-2/model12.webp"  alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">over size T-shirt</span>
                     <span class="teritory-heading">$210.99</span>
@@ -273,7 +280,7 @@
 
             <!-- Outfit -5 -->
             <div class="grid-container">
-                <img src="img/outfit-2/model6.jpg"  alt="images of models">
+                <img src="img/outfit-2/model6.webp"  alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Red chrome Fit</span>
                     <span class="teritory-heading">$449.99</span>
@@ -282,7 +289,7 @@
 
             <!-- Outfit -6 -->
             <div class="grid-container">
-                <img src="img/outfit-2/model7.jpg"  alt="images of models">
+                <img src="img/outfit-2/model7.webp"  alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Lentis outfit</span>
                     <span class="teritory-heading">$119.99</span>
@@ -291,12 +298,52 @@
 
             <!-- Outfit -7 -->
             <div class="grid-container">
-                <img src="img/outfit-2/model8.jpg"  alt="images of models">
+                <img src="img/outfit-2/model8.webp"  alt="images of models">
                 <div class="item-details">
                     <span class="teritory-heading">Pink bloom Jacket</span>
                     <span class="teritory-heading">$599.99</span>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="section-cover-img-footer" role="img" aria-label="group of models in street">
+
+    </section>
+
+    <!-- footer Section -->
+    <section class="section-footer">
+       
+        <!-- footer nav-bar -->
+        <nav class="footer-nav">
+            <ul class="footer-nav-links hide-class">
+                <li class="footer-nav-link"><a href="#" class="footer-links">SHOP</a></li>
+                <li class="footer-nav-link"><a href="#" class="footer-links">DISCOVER</a></li>
+                <li class="footer-nav-link"><a href="#" class="footer-links">JOURNAL</a></li>
+                <li class="footer-nav-link"><a href="#" class="footer-links">ABOUT</a></li>
+            </ul>
+
+            <ul class="footer-nav-links">
+                <li class="footer-nav-link"><a href="#" class="footer-links">INSTAGRAM</a></li>
+                <li class="footer-nav-link"><a href="#" class="footer-links">YOUTUBE</a></li>
+                <li class="footer-nav-link"><a href="#" class="footer-links">TWITTER</a></li>
+                <li class="footer-nav-link"><a href="#" class="footer-links">LINKEDIN</a></li>
+            </ul>
+        </nav>
+
+        <!-- Footer Brand Name -->
+
+        <div class="brand ">
+            
+            <h1 class="brand-name">URBEX</h1>
+            
+        </div>
+
+        <!-- Copyright and Creator -->
+
+        <div class="about">
+            <span class="teritory-heading">&copy;URBEX|2023 </span>
+            <span class="teritory-heading">MADE BY KIRAN</span>
         </div>
     </section>
 
