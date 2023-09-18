@@ -168,6 +168,10 @@
 /* MEDIA QUERIES FOR 650 PX */
 @media (max-width:37.5em){
 
+    body{
+        padding: 2rem;
+    }
+
     .primary-heading{
         font-size: 4.6rem;
     }
@@ -256,6 +260,10 @@
 /* *********************************************** */
 /* MEDIA QUERIES FOR 500 PX */
 @media (max-width:32em){
+
+    body{
+        padding: 2rem;
+    }
     
     .primary-heading{
         font-size: 3.4rem;
