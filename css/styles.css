@@ -36,11 +36,21 @@ header{
 
 }
 
-.main-link{
+.main-link:link,
+.main-link:visited{
     font-size: 1.4rem;
     color: #000;
     text-decoration: none;
+    transition: all 0.3s;
 }
+
+.main-link:hover,
+.main-link:active{
+    font-size: 1.6rem;
+    color: #000000ca;
+    text-decoration: none;
+}
+
 
 
 .register-btn{
@@ -336,6 +346,7 @@ header{
     list-style: none;
     display: flex;
     gap: 5rem;
+    
 }
 
 .footer-links{
